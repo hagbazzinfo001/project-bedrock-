@@ -1,0 +1,33 @@
+ 
+global:
+  namespace: retail-app
+
+ui:
+  replicaCount: 1
+
+catalog:
+  replicaCount: 1
+
+orders:
+  replicaCount: 1
+
+carts:
+  replicaCount: 1
+
+users:
+  replicaCount: 1
+
+assets:
+  replicaCount: 1
+
+mysql:
+  enabled: true
+
+postgresql:
+  enabled: true
+
+redis:
+  enabled: true
+
+rabbitmq:
+  enabled: true
